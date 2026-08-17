@@ -1,0 +1,1 @@
+import React from "react"; import {Link} from "react-router-dom"; export default function LatestBlog({blogs}){return <aside className="latest"><h3>Latest Posts</h3>{blogs.slice(0,4).map(b=><Link className="latest-item" to={"/blog/"+b.id} key={b.id}><strong>{b.title}</strong><small>{b.date}</small></Link>)}</aside>}

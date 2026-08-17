@@ -1,0 +1,1 @@
+import React from "react"; export default function Category({value,onChange,blogs}){const cats=["All",...new Set(blogs.map(b=>b.category).filter(Boolean))];return <select className="category" value={value} onChange={e=>onChange(e.target.value)}>{cats.map(c=><option key={c}>{c}</option>)}</select>}

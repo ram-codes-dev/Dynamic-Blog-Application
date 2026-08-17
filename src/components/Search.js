@@ -1,0 +1,1 @@
+import React from "react"; export default function Search({value,onChange}){return <div className="search"><i className="fa fa-search"></i><input value={value} onChange={e=>onChange(e.target.value)} placeholder="Search articles..." /></div>}

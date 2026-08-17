@@ -1,2 +1,9 @@
-# Dynamic-Blog-Application
-Developed a blog application using React JS with features to create, view, edit, and delete posts, utilizing component-based design and a mock API.
+# Fixed React Blog Application
+
+## Run
+1. Open a terminal in this folder.
+2. Run `npm install`
+3. Run `npm start`
+4. Open http://localhost:3000
+
+The app works without a backend and stores created/edited articles in browser localStorage.

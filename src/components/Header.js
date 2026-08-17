@@ -1,0 +1,1 @@
+import React from "react"; import {Link,NavLink} from "react-router-dom"; export default function Header(){return <header><div className="nav"><Link className="logo" to="/">Blog<span>.</span></Link><nav><NavLink to="/">Home</NavLink><NavLink to="/about">About</NavLink><NavLink className="button small" to="/add">+ New Article</NavLink></nav></div></header>}
